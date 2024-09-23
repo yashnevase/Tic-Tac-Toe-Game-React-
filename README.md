@@ -13,7 +13,7 @@ still improving
 
 
 # React + Vite
-
+ install nodejs and tailwind as needed reffer https://tailwindcss.com/docs/guides/vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
