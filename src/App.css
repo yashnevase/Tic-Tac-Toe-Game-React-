@@ -1,0 +1,60 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px;
+  font-weight: 600;
+  font-family:'Times New Roman', Times, serif;
+  font-size: larger;
+  color: rgb(203, 203, 203);
+  background-color: #121c22;
+  
+  
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-gap: 5px;
+  color: rgb(62, 1, 1);
+
+  
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+  font-size: 35px;
+  cursor: pointer;
+  background-color: #24363f;
+  border-radius: 4px;
+  
+}
+
+.game-info {
+  margin-top: 20px;
+  font-size: 30px;
+  
+}
+.word1 {
+  color: rgb(164, 2, 2);
+  padding-left: 2pc;
+  
+  
+}
+
+.square[data-value='X'] {
+  color: #f3cd17;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.square[data-value='O'] {
+  color: #83ffce;
+}
+
+.winner-message {
+  font-size: 24px;
+  color: rgb(60, 201, 0);
+  margin-bottom: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
